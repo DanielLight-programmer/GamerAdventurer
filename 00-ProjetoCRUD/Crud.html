@@ -7,7 +7,7 @@
     <title>Gamer Aventurer</title>
 </head>
 <body>
-    <h1>GamerAventurer</h1>
+    <h1 class="title-name">GamerAventurer</h1>
 
     <div class="form">
        <div class="input-container">
@@ -20,7 +20,7 @@
         </div>
        <div class="input-container">
         <label for="inp-cpf">CPF</label>
-        <input id="inp-cpf" type="number"> 
+        <input id="inp-cpf" type="text"> 
         </div>
        <div class="input-container">
         <label for="inp-nomeDeusuario">Nome de usuário:</label>
@@ -31,7 +31,8 @@
         <input id="inp-senha" type="password">
         </div>
         <button class="bt-action" onclick="cadastrarCliente()">Cadastrar</button>
-
+        <button class="bt-excluirdigitações" onclick="limparformclientes()">limpar</button>
+        
     </div> 
       
     <script src="Crud.js"></script>

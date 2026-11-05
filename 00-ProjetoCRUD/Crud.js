@@ -16,4 +16,14 @@ clientes.push(cliente)
 localStorage.setItem('clientes', JSON.stringify(clientes))
 console.log(cliente)
     console.log(clientes);
+    limparformclientes();
+
+
+}
+function limparformclientes(){
+    document.getElementById('inp-nome').value = ''
+document.getElementById('inp-dataDeNascimento').value = ''
+document.getElementById('inp-cpf').value = ''
+document.getElementById('inp-nomeDeusuario').value = ''
+    document.getElementById('inp-senha').value = ''
 }
