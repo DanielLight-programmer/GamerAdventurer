@@ -4,7 +4,7 @@ function cadastrarCliente(){
     clientes = JSON.parse(localStorage.getItem("clientes")) || []    
     
     let cliente = {
-    nome: document.getElementById('inp-nome').value.toUpperCase(),
+    nome: document.getElementById('inp-nome').value,
     data:document.getElementById('inp-dataDeNascimento').value,
     cpf: document.getElementById('inp-cpf').value,
     nomedeusuario: document.getElementById('inp-nomeDeusuario').value,

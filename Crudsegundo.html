@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Crud.css">
+    <link rel="stylesheet" href="Crudsegundo.css">
     <title>Gamerperiféricos</title>
 </head>
 <body>
-    <h1 class="title-name">GamerAventurer</h1>
+    <h1 class="title-name">Adventurous device</h1>
 
     <div class="form">
        <div class="input-container">
-        <label for="inp-nome">Nome:</label>
-        <input id="inp-nome" type="text"> 
+        <label for="inp-ssd-hd">SSD/HD:</label>
+        <input id="inp-ssd" type="text"> 
        </div>
        <div class="input-container">
-        <label for="inp-dataDeNascimento">Data de nascimento:</label>
-        <input id="inp-dataDeNascimento" type="date">
+        <label for="inp-modelomonitor">Monitor:</label>
+        <input id="inp-modelomonitor" type="text">
         </div>
        <div class="input-container">
-        <label for="inp-cpf">CPF</label>
-        <input id="inp-cpf" type="text"> 
+        <label for="inp-modelomemoriaram">Memória Ram:</label>
+        <input id="inp-modelomemoriaram" type="text"> 
         </div>
        <div class="input-container">
-        <label for="inp-nomeDeusuario">Nome de usuário:</label>
-        <input id="inp-nomeDeusuario" type="text">
+        <label for="inp-modeloprocessador">Processador:</label>
+        <input id="inp-modeloprocessador" type="text">
         </div>
        <div class="input-container">
-        <label for="inp-senha">Senha:</label>
-        <input id="inp-senha" type="password">
+        <label for="inp-modelomouse">Mouse:</label>
+        <input id="inp-modelomouse" type="text">
         </div>
-        <button class="bt-action" onclick="cadastrarCliente()">Cadastrar</button>
-        <button class="bt-excluirdigitações" onclick="limparformclientes()">limpar</button>
-        
+       <div class="input-container">
+        <label for="inp-modeloteclado">Teclado:</label>
+        <input id="inp-modeloteclado" type="text">
+        </div>
+       <div class="input-container">
+        <label for="inp-modeloplacamae">Placa-Mãe:</label>
+        <input id="inp-modeloplacamae" type="text">
+        </div>
+        <button class="bt-action" onclick="cadastrarPeriféricos()">Cadastrar Dispositivos</button>
+        <button class="bt-excluirdigitações" onclick="limparformPeriféricos()">limparDispositivos</button>
     </div> 
       
-    <script src="Crud.js"></script>
+    <script src="Crudsegundo.js"></script>
 </body>
 </html>
