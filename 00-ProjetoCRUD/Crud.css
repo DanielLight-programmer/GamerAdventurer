@@ -40,16 +40,13 @@ input{
     gap: 10px;
     border-radius: 10px;
     /* box-shadow: 0 0 10px var(--malachite); */
-
 }
 
 .input-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  
-   
+    align-items: center;     
 }
 
 .bt-action{
@@ -85,3 +82,7 @@ input{
 }
 
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Inverte a cor do ícone */
+    cursor: pointer;
+  }

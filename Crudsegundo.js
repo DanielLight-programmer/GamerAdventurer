@@ -25,8 +25,64 @@ function limparDispositivo(){
     document.getElementById('inp-ssdhd').value = ''
 document.getElementById('inp-modelomonitor').value = ''
 document.getElementById('inp-modelomemoriaram').value = ''
-document.getElementById('inp-modeloprocessador').value = ''
+    document.getElementById('inp-modeloprocessador').value = ''
     document.getElementById('inp-modelomouse').value = ''
     document.getElementById('inp-modeloteclado').value = ''
     document.getElementById('inp-modeloplacamae').value = ''
 }
+
+
+
+
+
+
+
+
+
+document.getElementById('inp-ssdhd').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-modelomonitor').focus()
+    }
+})
+
+
+document.getElementById('inp-modelomonitor').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-modelomemoriaram').focus()
+    }
+})
+
+
+document.getElementById('inp-modelomemoriaram').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-modeloprocessador').focus()
+    }
+})
+
+
+document.getElementById('inp-modeloprocessador').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-modelomouse').focus()
+    }
+})
+
+
+document.getElementById('inp-modelomouse').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-modeloteclado').focus()
+    }
+})
+
+
+document.getElementById('inp-modeloteclado').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+       document.getElementById('inp-modeloplacamae').focus()
+    }
+
+})
+
+document.getElementById('inp-modeloplacamae').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        cadastrarDispositivo()
+    }
+})

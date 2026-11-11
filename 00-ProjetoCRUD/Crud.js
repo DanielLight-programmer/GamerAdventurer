@@ -26,4 +26,41 @@ document.getElementById('inp-dataDeNascimento').value = ''
 document.getElementById('inp-cpf').value = ''
 document.getElementById('inp-nomeDeusuario').value = ''
     document.getElementById('inp-senha').value = ''
-}
+} 
+
+
+
+
+document.getElementById('inp-nome').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-dataDeNascimento').focus()
+    }
+})
+
+
+document.getElementById('inp-dataDeNascimento').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-cpf').focus()
+    }
+})
+
+
+document.getElementById('inp-cpf').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-nomeDeusuario').focus()
+    }
+})
+
+
+document.getElementById('inp-nomeDeusuario').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        document.getElementById('inp-senha').focus()
+    }
+})
+
+
+document.getElementById('inp-senha').addEventListener("keyup",(evento) =>{
+    if(evento.key == "Enter"){
+        cadastrarCliente()
+    }
+})
