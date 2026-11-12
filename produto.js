@@ -86,3 +86,5 @@ document.getElementById('inp-modeloplacamae').addEventListener("keyup",(evento) 
         cadastrarDispositivo()
     }
 })
+
+
