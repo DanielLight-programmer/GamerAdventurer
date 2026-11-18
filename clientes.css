@@ -86,3 +86,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1); /* Inverte a cor do ícone */
     cursor: pointer;
   }
+  
