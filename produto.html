@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="produto.css">
     <title>Gamerperiféricos</title>
 </head>
-<body>
+<body onload="identificarusuario()">
+    <h3 id="usuario-logado"></h3>
     <h1 class="title-name">Adventurous device</h1>
-
-    <div class="form">
+<button onclick="deslogarusuario()">Deslogar usuário</button>
+    
+<div class="form">
+        <div class="input-container">
+            <label for="inp-user">usuario:</label>
+            <input id="inp-user" type="text" disabled> 
+        </div>
        <div class="input-container">
         <label for="inp-ssdhd">SSD/HD:</label>
         <input id="inp-ssdhd" type="text"> 

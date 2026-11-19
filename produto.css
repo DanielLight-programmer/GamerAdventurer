@@ -77,4 +77,10 @@
         border-radius: 10px;
         background-color: var(--black);
     }
+
+    #inp-user{
+
+        text-align: center;
+
+    }
     
